@@ -1,0 +1,307 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-17T16:45:01.037Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.CRM.step_defs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Add a new quote",
+        "description": "",
+        "id": "add-a-new-quote;add-a-new-quote",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.CRM.step_defs.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": ": the user is logged in",
+            "match": {
+              "location": "com.CRM.step_defs.AddingQuoteStepDefs.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": ": the user navigates to More tab on the main page and clicks Appreciation",
+            "match": {
+              "location": "com.CRM.step_defs.AddingQuoteStepDefs.the_user_navigates_to_More_tab_on_the_main_page_and_clicks_Appreciation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": ": user clicks quote sign",
+            "match": {
+              "location": "com.CRM.step_defs.AddingQuoteStepDefs.user_clicks_quote_sign()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": ": quote can be added",
+            "match": {
+              "location": "com.CRM.step_defs.AddingQuoteStepDefs.quote_can_be_added()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Add a new quote",
+    "description": "",
+    "id": "add-a-new-quote",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AddingQuote.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-17T16:45:01.113Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.CRM.step_defs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Add a new video",
+        "description": "",
+        "id": "adding-a-video-link;add-a-new-video",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.CRM.step_defs.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the user is logged in",
+            "match": {
+              "location": "com.CRM.step_defs.LoginStepDefs.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": ": the user navigates to More tab on the main page and clicks Appreciation",
+            "match": {
+              "location": "com.CRM.step_defs.AddingQuoteStepDefs.the_user_navigates_to_More_tab_on_the_main_page_and_clicks_Appreciation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user clicks on the video icon",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user is able to insert a valid vimeo video link",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user should be able to Save video link",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Adding a video link",
+    "description": "",
+    "id": "adding-a-video-link",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AddingVideoLink.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-17T16:45:01.125Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.CRM.step_defs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Sending Appreciation",
+        "description": "",
+        "id": "sending-appreciation;sending-appreciation",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.CRM.step_defs.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "the user is logged in",
+            "match": {
+              "location": "com.CRM.step_defs.LoginStepDefs.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": ": the user navigates to More tab on the main page and clicks Appreciation",
+            "match": {
+              "location": "com.CRM.step_defs.AddingQuoteStepDefs.the_user_navigates_to_More_tab_on_the_main_page_and_clicks_Appreciation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user inserts text in the message box",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user should be able to send Appreciation message",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Sending Appreciation",
+    "description": "",
+    "id": "sending-appreciation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SendingAppreciation.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

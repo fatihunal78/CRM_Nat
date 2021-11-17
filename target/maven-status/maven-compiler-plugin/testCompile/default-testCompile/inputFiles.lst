@@ -1,0 +1,15 @@
+/Users/nataliatornea/IdeaProjects/CRM/src/test/java/com/CRM/step_defs/Hooks.java
+/Users/nataliatornea/IdeaProjects/CRM/src/test/java/com/CRM/utilities/ConfigurationReader.java
+/Users/nataliatornea/IdeaProjects/CRM/src/test/java/com/CRM/step_defs/LoginStepDefs.java
+/Users/nataliatornea/IdeaProjects/CRM/src/test/java/com/CRM/step_defs/SendingAppreciationStepDefs.java
+/Users/nataliatornea/IdeaProjects/CRM/src/test/java/com/CRM/pages/ActivityStreamPage.java
+/Users/nataliatornea/IdeaProjects/CRM/src/test/java/com/CRM/step_defs/AddingURLStepDefs.java
+/Users/nataliatornea/IdeaProjects/CRM/src/test/java/com/CRM/step_defs/AddingQuoteStepDefs.java
+/Users/nataliatornea/IdeaProjects/CRM/src/test/java/com/CRM/step_defs/AddingVideoLinkStepDefs.java
+/Users/nataliatornea/IdeaProjects/CRM/src/test/java/com/CRM/pages/AppreciationPage.java
+/Users/nataliatornea/IdeaProjects/CRM/src/test/java/com/CRM/runners/CukesRunner.java
+/Users/nataliatornea/IdeaProjects/CRM/src/test/java/com/CRM/pages/LoginPage.java
+/Users/nataliatornea/IdeaProjects/CRM/src/test/java/com/CRM/utilities/Driver.java
+/Users/nataliatornea/IdeaProjects/CRM/src/test/java/com/CRM/runners/FailedTestRunner.java
+/Users/nataliatornea/IdeaProjects/CRM/src/test/java/com/CRM/pages/BasePage.java
+/Users/nataliatornea/IdeaProjects/CRM/src/test/java/com/CRM/utilities/BrowserUtils.java
