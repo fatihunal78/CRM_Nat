@@ -13,7 +13,7 @@ public class ActivityStreamPage  {
     @FindBy(id= "feed-add-post-form-link-text")
     public WebElement more;
 
-    @FindBy(linkText= "Appreciation")
+    @FindBy(xpath= "//*[text()='Appreciation']")
     public WebElement appreciation;
 
 }

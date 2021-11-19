@@ -3,11 +3,12 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-11-17T16:45:01.037Z",
+        "start_timestamp": "2021-11-19T00:47:55.890Z",
         "before": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 9393000000,
+              "status": "passed"
             },
             "match": {
               "location": "com.CRM.step_defs.Hooks.setUp()"
@@ -21,7 +22,8 @@
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 1154000000,
+              "status": "passed"
             },
             "match": {
               "location": "com.CRM.step_defs.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -33,22 +35,23 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 7969000000,
+              "status": "passed"
             },
             "line": 5,
-            "name": ": the user is logged in",
+            "name": "the user is logged in",
             "match": {
-              "location": "com.CRM.step_defs.AddingQuoteStepDefs.the_user_is_logged_in()"
+              "location": "com.CRM.step_defs.LoginStepDefs.the_user_is_logged_in()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1377000000,
+              "status": "passed"
             },
             "line": 6,
-            "name": ": the user navigates to More tab on the main page and clicks Appreciation",
+            "name": "the user navigates to More tab on the main page and clicks Appreciation",
             "match": {
               "location": "com.CRM.step_defs.AddingQuoteStepDefs.the_user_navigates_to_More_tab_on_the_main_page_and_clicks_Appreciation()"
             },
@@ -56,10 +59,11 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 401000000,
+              "status": "passed"
             },
             "line": 7,
-            "name": ": user clicks quote sign",
+            "name": "user clicks quote sign",
             "match": {
               "location": "com.CRM.step_defs.AddingQuoteStepDefs.user_clicks_quote_sign()"
             },
@@ -67,11 +71,11 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 250000000,
+              "status": "passed"
             },
             "line": 8,
-            "name": ": quote can be added",
+            "name": "quote can be added",
             "match": {
               "location": "com.CRM.step_defs.AddingQuoteStepDefs.quote_can_be_added()"
             },
@@ -105,11 +109,12 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-11-17T16:45:01.113Z",
+        "start_timestamp": "2021-11-19T00:48:16.585Z",
         "before": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 5419000000,
+              "status": "passed"
             },
             "match": {
               "location": "com.CRM.step_defs.Hooks.setUp()"
@@ -123,7 +128,8 @@
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 948000000,
+              "status": "passed"
             },
             "match": {
               "location": "com.CRM.step_defs.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -135,8 +141,8 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 5717000000,
+              "status": "passed"
             },
             "line": 5,
             "name": "the user is logged in",
@@ -147,10 +153,11 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1133000000,
+              "status": "passed"
             },
             "line": 6,
-            "name": ": the user navigates to More tab on the main page and clicks Appreciation",
+            "name": "the user navigates to More tab on the main page and clicks Appreciation",
             "match": {
               "location": "com.CRM.step_defs.AddingQuoteStepDefs.the_user_navigates_to_More_tab_on_the_main_page_and_clicks_Appreciation()"
             },
@@ -158,29 +165,38 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 265000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "user clicks on the video icon",
-            "match": {},
+            "match": {
+              "location": "com.CRM.step_defs.AddingVideoLinkStepDefs.user_clicks_on_the_video_icon()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 3406000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "user is able to insert a valid vimeo video link",
-            "match": {},
+            "match": {
+              "location": "com.CRM.step_defs.AddingVideoLinkStepDefs.user_is_able_to_insert_a_valid_vimeo_video_link()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 103000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "user should be able to Save video link",
-            "match": {},
+            "match": {
+              "location": "com.CRM.step_defs.AddingVideoLinkStepDefs.user_should_be_able_to_Save_video_link()"
+            },
             "keyword": "And "
           }
         ],
@@ -211,11 +227,12 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-11-17T16:45:01.125Z",
+        "start_timestamp": "2021-11-19T00:48:33.594Z",
         "before": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 5227000000,
+              "status": "passed"
             },
             "match": {
               "location": "com.CRM.step_defs.Hooks.setUp()"
@@ -229,7 +246,8 @@
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 1002000000,
+              "status": "passed"
             },
             "match": {
               "location": "com.CRM.step_defs.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -241,7 +259,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 5606000000,
+              "status": "passed"
             },
             "line": 4,
             "name": "the user is logged in",
@@ -252,11 +271,11 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 1167000000,
+              "status": "passed"
             },
             "line": 5,
-            "name": ": the user navigates to More tab on the main page and clicks Appreciation",
+            "name": "the user navigates to More tab on the main page and clicks Appreciation",
             "match": {
               "location": "com.CRM.step_defs.AddingQuoteStepDefs.the_user_navigates_to_More_tab_on_the_main_page_and_clicks_Appreciation()"
             },
@@ -264,20 +283,26 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 305000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "user inserts text in the message box",
-            "match": {},
+            "match": {
+              "location": "com.CRM.step_defs.SendingAppreciationStepDefs.user_inserts_text_in_the_message_box()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1162000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "user should be able to send Appreciation message",
-            "match": {},
+            "match": {
+              "location": "com.CRM.step_defs.SendingAppreciationStepDefs.user_should_be_able_to_send_Appreciation_message()"
+            },
             "keyword": "And "
           }
         ],

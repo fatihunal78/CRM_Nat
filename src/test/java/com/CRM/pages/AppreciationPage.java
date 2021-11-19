@@ -29,18 +29,18 @@ public class AppreciationPage  {
     @FindBy (css = "#linkidPostFormLHE_blogPostForm-href")
     public WebElement linkURL;
 
-    @FindBy (css = "#undefined")
+    @FindBy(xpath = "//button[@id='blog-submit-button-save']")
     public WebElement saveBtn;
 
-    @FindBy (id = ".bxhtmled-90-input")
+    @FindBy (xpath = "//input[@class='adm-btn-save']")
     public WebElement SaveVideoBtn;
 
 
     @FindBy (xpath = "//body[@contenteditable = 'true']")
     public WebElement textField;
 
-    @FindBy (id = "blog-submit-button-save")
-    public WebElement SendBtn;
+    @FindBy(xpath = "//iframe[@class='bx-editor-iframe']")
+    public WebElement msgBoxFrame;
 
 
 
